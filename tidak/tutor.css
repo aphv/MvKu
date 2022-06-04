@@ -1,112 +1,112 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Heebo");
-body {
+tubuh {
   background-image: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
+  tampilan: fleksibel;
+  align-item: tengah;
+  justify-content: pusat;
+  min-tinggi: 100vh;
   font-family: "Heebo";
 }
 
 b {
-  position: relative;
-  top: 0;
-  left: -25;
+  posisi: relatif;
+  atas: 0;
+  kiri: -25;
 }
 
-#buttons  {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
+#tombol {
+  lebar: 100%;
+  tampilan: fleksibel;
+  arah fleksibel: kolom;
+  align-item: tengah;
+  justify-content: pusat;
 }
 
 .btn {
-  text-decoration: none;
-  display: block;
-  padding: 15px;
-  border-radius: 50px;
-  font-weight: 900;
-  text-align: center;
-  margin: 30px;
-  width: 200px;
-  transition: all 0.3s ease;
+  dekorasi teks: tidak ada;
+  tampilan: blok;
+  bantalan: 15px;
+  batas-radius: 50px;
+  font-berat: 900;
+  perataan teks: tengah;
+  margin: 30 piksel;
+  lebar: 200 piksel;
+  transisi: semua 0,3 detik mudah;
 }
 
-.btn-solid {
+.btn-padat {
   background-image: linear-gradient(130deg, #fc00ff 0%, #00dbde 100%);
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  color: white;
-  font-weight: 900;
+  bayangan kotak: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  warna putih;
+  font-berat: 900;
 }
 
-.effect-scale:hover {
-  transform: scale(1.05);
+.skala efek: arahkan kursor {
+  mengubah: skala(1.05);
 }
 
-.btn-outline {
-  border: 4px solid #fc00ff;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
-  color: #fc00ff;
-  font-weight: 900;
+.btn-garis besar {
+  batas: 4px solid #fc00ff;
+  bayangan kotak: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  warna: #fc00ff;
+  font-berat: 900;
 }
 
-.btn-outline:hover {
-  box-shadow: 0px 2px 20px 5px #fc00ff;
-  color: #fc00ff;
+.btn-garis: arahkan kursor {
+  bayangan kotak: 0px 2px 20px 5px #fc00ff;
+  warna: #fc00ff;
 }
 
-.btn-outline:focus {
-  outline: 0;
+.btn-garis besar:fokus {
+  garis besar: 0;
 }
 
 .btn-roll {
-  background-color: transparent;
-  border: 4px solid #27BAE3;
+  warna latar: transparan;
+  batas: 4px solid #27BAE3;
 }
 
 .btn-roll span {
-  display: block;
-  position: relative;
-  transition: 0.3s ease-in-out all;
-  transform-origin: 50% 0;
-  transform-style: preserve-3d;
-  color: #27BAE3;
-  width: 100%;
+  tampilan: blok;
+  posisi: relatif;
+  transisi: 0,3 detik mudah masuk semua;
+  transformasi-asal: 50% 0;
+  mengubah-gaya: melestarikan-3d;
+  warna: #27BAE3;
+  lebar: 100%;
 }
 
-.btn-roll span:after {
-  display: block;
-  content: attr(data-title);
-  position: absolute;
-  left: 0;
-  top: 0;
-  transition: 0.3s ease-in-out all;
-  transform-origin: 50% 0;
-  transform: translate3d(0px, 105%, 0px) rotateX(-90deg);
-  color: #fc00ff;
-  width: 100%;
+.btn-roll span:setelah {
+  tampilan: blok;
+  konten: attr(data-judul);
+  posisi: mutlak;
+  kiri: 0;
+  atas: 0;
+  transisi: 0,3 detik mudah masuk semua;
+  transformasi-asal: 50% 0;
+  mengubah: translate3d(0px, 105%, 0px) rotateX(-90deg);
+  warna: #fc00ff;
+  lebar: 100%;
 }
 
 .btn-roll:hover span {
-  transform: translate3d(0px, 0px, -30px) rotateX(90deg);
+  mengubah: translate3d(0px, 0px, -30px) rotateX(90deg);
 }
 
 .btn-1 {
-  flex: 1 1 auto;
-  text-align: center;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;
+  fleksibel: 1 1 otomatis;
+  perataan teks: tengah;
+  transisi: 0,5 detik;
+  ukuran latar belakang: 200% otomatis;
+  warna putih;
   /* text-shadow: 0px 0px 10px rgba(0,0,0,0.2);*/
   box-shadow: 0 0 20px #eee;
-  border-radius: 50px;
+  batas-radius: 50px;
   background-image: linear-gradient(130deg, #fc00ff 0%, #00dbde 100%);
 }
 
-.btn-1:hover {
-  background-position: right center;
-  /* change the direction of the change here */
+.btn-1:arahkan kursor {
+  posisi latar belakang: tengah kanan;
+  /* ubah arah perubahan di sini */
 }
