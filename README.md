@@ -1,3 +1,3 @@
 # MvKu
-<b>Dengan Vpn => <button href='https://aphv.github.io/MvKu/'>MvKu</button></b>
-<b>Tanpa Vpn => <button href='https://aphv.github.io/MvKu/no/novpn.html'>MvKu</button></b>
+<b>Dengan Vpn => https://aphv.github.io/MvKu/</b>
+<b>Tanpa Vpn => https://aphv.github.io/MvKu/no/novpn.html</b>
